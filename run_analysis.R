@@ -30,8 +30,8 @@ featuresWanted <- grep(featureFilter, features[,2])
 
 ## Get and clean feature names
 featuresNames <- features[featuresWanted,2]
-featuresNames = gsub('-mean', 'Mean', featuresNames)
-featuresNames = gsub('-std', 'StdDev', featuresNames)
+featuresNames <- gsub('-mean', 'Mean', featuresNames)
+featuresNames <- gsub('-std', 'StdDev', featuresNames)
 featuresNames <- gsub('[-()]', '', featuresNames)
 featuresNames <- gsub('^t', 'time', featuresNames)
 featuresNames <- gsub('^f', 'frequency', featuresNames)
