@@ -67,4 +67,4 @@ full$subject <- as.factor(full$subject)
 average <- ddply(full, c("activity", "subject"), numcolwise(mean))
 
 ## Write dataset to file
-write.table(average, file = "tidyDataSet.txt", row.names = FALSE, sep = "\t")
+write.table(average, file = "TidyDataSet.txt", row.names = FALSE, sep = "\t")
