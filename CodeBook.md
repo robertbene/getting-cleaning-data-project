@@ -4,6 +4,8 @@ This code book summarizes the resulting data fields in `TidyDataSet.txt`.
 
 ## Measurements
 
+For variables derived from mean and standard deviation estimation, the previous labels are augmented with the terms "Mean" or "StdDev"
+
 ### Time domain
 
 * timeBodyAccelerometerMeanX                           
